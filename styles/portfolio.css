@@ -22,8 +22,8 @@
 .header {
   background-image: url(../images/developer.png), url(../images/header_bg.png);
   background-repeat: no-repeat;
-  background-position: top left, bottom right;
   background-color: var(--color-bg);
+  background-position: top left, bottom right;
 }
 
 /* nav style */
@@ -31,7 +31,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 50px 230px;
+  padding: 50px 230px;
 }
 .nav-title {
   font-weight: 800;
@@ -55,6 +55,11 @@ nav li a {
 }
 
 /* shared style */
+.text-primary {
+  font-size: 20px;
+  color: var(--color-1);
+  font-weight: bold;
+}
 .section-title {
   font-size: 35px;
   font-weight: bold;
@@ -118,7 +123,7 @@ nav li a {
 .about {
   background-color: var(--color-bg);
   width: 1140px;
-  margin: 130px 230px;
+  margin: 130px auto;
   padding: 130px 150px;
   display: flex;
   justify-content: center;
@@ -149,4 +154,38 @@ nav li a {
   color: var(--color-2);
   font-size: 20px;
   font-weight: bold;
+}
+/* ======= skills section====== */
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1140px;
+  margin: 0 auto;
+  gap: 30px;
+}
+.skills > .section-description {
+  width: 909px;
+}
+.skills .card .section-description {
+  font-size: 16px;
+}
+.skills .cards {
+  display: flex;
+  gap: 28px;
+  width: 1140px;
+}
+.skills .card {
+  width: 260px;
+  padding: 30px;
+  box-shadow: 0 6px 50px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+}
+.skills .card img {
+  margin-bottom: 20px;
+}
+.skills .card p {
+  margin-top: 20px;
+  text-align: left;
 }
