@@ -78,6 +78,7 @@ nav li a {
   color: white;
   font-size: 18px;
   font-weight: bold;
+  cursor: pointer;
 }
 /* banner styles */
 .banner {
@@ -188,4 +189,107 @@ nav li a {
 .skills .card p {
   margin-top: 20px;
   text-align: left;
+}
+/* resume section styles */
+.resume-container {
+  display: flex;
+  gap: 20px;
+}
+section {
+  width: 1140px;
+  margin: 0 auto;
+}
+.resume {
+  margin-top: 150px;
+}
+.resume .section-title {
+  margin-bottom: 100px;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+}
+.resume-column-title {
+  margin-bottom: 48px;
+  font-size: 30px;
+  color: var(--color-2);
+}
+.resume .experience-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--color-2);
+}
+.resume .experience-subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-3);
+  margin: 10px 0;
+}
+.resume .experience-description {
+  font-size: 16px;
+  color: var(--color-3);
+  line-height: 30px;
+}
+hr {
+  margin: 30px 0;
+}
+.resume .btn-primary {
+  display: block;
+  margin: 50px auto 100px;
+}
+/* footer design */
+footer {
+  background-color: var(--color-bg);
+  padding: 150px 0;
+}
+.footer {
+  display: flex;
+  width: 1140px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.footer .footer-column {
+  max-width: 560px;
+}
+.footer .section-subtitle {
+  font-size: 16px;
+  color: var(--color-3);
+  line-height: 30px;
+}
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.social-icons {
+  display: flex;
+  gap: 30px;
+}
+.footer-column input {
+  margin-bottom: 30px;
+  display: block;
+}
+.footer-column input[type="text"] {
+  width: 450px;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Open Sans", serif;
+}
+.footer-column textarea {
+  border: none;
+  font-family: "Open Sans", serif;
+  font-size: 16px;
+  padding: 20px 0 0 20px;
+}
+.footer-column input[type="submit"] {
+  background-color: #fd6e0a;
+  padding: 18px 35px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 25px;
 }
